@@ -8,17 +8,14 @@ var methodOverride = require("method-override");
 
 app.use(bodyParser());
 app.use(methodOverride());
-
-
-
 app.use('/public', express.static(__dirname + '/public'));
 
 mongoose.connect('mongodb://localhost/networking');
  
 var Schema = new mongoose.Schema({
-	_id: String,
+	user_name: String,
 	user_email: String,
-        user_msg:String
+        user_message:String
 });
  
 var user = mongoose.model('Email', Schema);
