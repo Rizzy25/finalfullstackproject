@@ -1,6 +1,6 @@
 var express = require("express");
-//var http = require("http");
-//var path = require("path");
+var http = require("http");
+var path = require("path");
 var mongoose = require("mongoose");
 var app = express();
 var bodyParser = require("body-parser");
@@ -16,9 +16,9 @@ app.use('/public', express.static(__dirname + '/public'));
 mongoose.connect('mongodb://localhost/networking');
  
 var Schema = new mongoose.Schema({
-	first_name: String,
-	last_name: String,
-    user_email:String
+	_id: String,
+	user_email: String,
+        user_msg:String
 });
  
 var user = mongoose.model('Email', Schema);
@@ -39,9 +39,8 @@ app.post('/new', function(req, res){
 	});
 });
  
-// Navigate to each web page file
 
-var path = path;
+var path = __dirname + '/views/';
 
 app.use(function (req,res,next) {
   console.log("/" + req.method);
