@@ -26,16 +26,6 @@ app.post('/new', function(req, res){
  })
 });
 
-app.post('/new', function(req, res){
-	new user({
-		_id    : req.body.email,
-		name: req.body.name				
-	}).save(function(err, doc){
-		if(err) res.json(err);
-		else    res.send('I will be in Touch!');
-	});
-});
- 
 
 var path = __dirname + '/views/';
 
