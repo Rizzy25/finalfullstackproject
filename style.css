@@ -1,0 +1,114 @@
+.heading 
+{
+ color:aquamarine
+ font-family:
+ text-align: center; 
+}
+
+.btn btn-default
+{
+  
+padding-top: 50px
+}
+
+
+ul
+{
+  list-style: none
+}
+
+/**social icons**/
+
+#socialList li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+
+
+/**Portfolio Section**/
+
+img{
+  max-width: 100%
+}
+
+#portfolio{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#portfolio li{
+  float:  left;
+  width: 45%;
+  margin: 2.5%;
+  Background-color: #ffffff;
+
+}
+
+.navebar, .navbar-default, .navbar-fixed-top{
+background-color: #00ffff;}
+
+//**form**//
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+

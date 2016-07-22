@@ -1,0 +1,27 @@
+{
+  "name": "expresstest",
+  "version": "1.0.0",
+  "description": "read me \r # Shirisma Shavers Online Portfolio via Code Louisville's-Treehouse-FullStack JavaScript Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001bapp.js)\u001b[B"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizzy25/newfullstackproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizzy25/newfullstackproject/issues"
+  },
+  "homepage": "https://github.com/Rizzy25/newfullstackproject#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.4",
+    "mongoose": "^4.5.5",
+    "nodemon": "^1.9.2"
+  }
+}
